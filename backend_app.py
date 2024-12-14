@@ -29,14 +29,11 @@ def get_random_entry():
     Fetches a random entry from the train.csv dataset.
     """
     random_entry = df.sample(n=1).iloc[0]
-    #print("random entry is : ", random_entry)
     
     # Tokenize the post_text
     tokens = tokenizer.tokenize(random_entry['post_text'])
     # Convert tokens back to a more readable format
     readable_tokens = [token.replace('▁', '') for token in tokens]
-    print(readable_tokens)
-
     response = {
         "issue": random_entry['issue'],
         "post_text": random_entry['post_text'],
