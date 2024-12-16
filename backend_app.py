@@ -91,12 +91,15 @@ def get_balanced_sample(df, n=30):
         if len(positive_entries) < samples_per_label:
             raise ValueError(f"Not enough entries for label '{label}' to ensure balance.")
         
-        # Randomly sample from the positive entries
-        sampled_entries = positive_entries.sample(n=samples_per_label)
+        # Select the first 'samples_per_label number' of entries for the label
+        sampled_entries = positive_entries.head(samples_per_label)
         balanced_sample = pd.concat([balanced_sample, sampled_entries], ignore_index=True)
 
-    # Shuffle the final balanced sample
-    balanced_sample = balanced_sample.sample(frac=1).reset_index(drop=True)
+    # Save the balanced dataset to a CSV file
+    #balanced_sample.to_csv("balanced_entries_42.csv", index=False)
+    # Shuffle the final balanced sample to ensure randomness across labels
+    # Remove the shuffle step if order consistency is preferred
+    #balanced_sample = balanced_sample.sample(frac=1).reset_index(drop=True)
 
     return balanced_sample
 
