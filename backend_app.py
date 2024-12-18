@@ -64,7 +64,7 @@ current_index = None
 balanced_sample = None
 
 # To implement balanced post entries
-def get_balanced_sample(df, n=30):
+def get_balanced_sample(df, n=42):
     """
     Fetches n entries from the dataset with a balanced distribution of labels.
     """
@@ -85,18 +85,27 @@ def get_balanced_sample(df, n=30):
     # Calculate number of samples per label for balance
     samples_per_label = n // len(label_columns)
 
+    # Keep track of which post_ids have already been added
+    used_post_ids = set()
+
     for label in label_columns:
         # Filter rows where the current label is 1
         positive_entries = df[df[label] == 1]
+
+        # Exclude already used post_ids
+        positive_entries = positive_entries.loc[~positive_entries['post_id'].isin(used_post_ids)]
         if len(positive_entries) < samples_per_label:
             raise ValueError(f"Not enough entries for label '{label}' to ensure balance.")
         
         # Select the first 'samples_per_label number' of entries for the label
         sampled_entries = positive_entries.head(samples_per_label)
+        # Add the post_ids of the selected entries to the used_post_ids set - keep tracking to avoid redundant entries
+        used_post_ids.update(sampled_entries['post_id'].values)
         balanced_sample = pd.concat([balanced_sample, sampled_entries], ignore_index=True)
 
     # Save the balanced dataset to a CSV file
     #balanced_sample.to_csv("balanced_entries_42.csv", index=False)
+    
     # Shuffle the final balanced sample to ensure randomness across labels
     # Remove the shuffle step if order consistency is preferred
     #balanced_sample = balanced_sample.sample(frac=1).reset_index(drop=True)
@@ -114,7 +123,7 @@ def get_balanced_entry():
 
     # Initialize the balanced dataset if not already created
     if balanced_sample is None or current_index is None:
-        balanced_sample = get_balanced_sample(df, n=28)  # Adjust n as needed, better if multiples of 14
+        balanced_sample = get_balanced_sample(df, n=42)  # Adjust n as needed, better if multiples of 14
         current_index = 0  # Start from the beginning
 
     # Get the current entry
