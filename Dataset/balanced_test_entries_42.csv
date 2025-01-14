@@ -1,0 +1,103 @@
+post_id,source_dataset,issue,post_text,Inappropriateness,Toxic Emotions,Excessive Intensity,Emotional Deception,Missing Commitment,Missing Seriousness,Missing Openness,Missing Intelligibility,Unclear Meaning,Missing Relevance,Confusing Reasoning,Other Reasons,Detrimental Orthography,Reason Unclassified,fold0.0
+0,0,Is the school uniform a good or bad idea:,students should wear what they like and feel free about their clothes,1,0,0,0,0,0,0,1,0,0,1,0,0,0,TEST
+8,0,Tv is better than books:,I thick that book are better than TV is it is better i can put you in a whole norther wold and it is educational,1,0,0,0,0,0,0,0,0,0,0,1,0,1,TEST
+9,0,Tv is better than books:,"Books enlighten the soul. Books don't destroy the morals of children. Books throw the mind into a series of questions, they take the readers to mystical places, paradise, and even the kitchen sink. They change your perspective on life and often give the reader a sense of relativity. Television is like a drug. It's as bad as nicotine. Fahrenheit 451, the Night Circus, The Secret Garden, Inkheart... Do I have to further explain..?",1,1,1,1,1,0,1,1,0,0,1,0,0,0,TEST
+60,0,India has the potential to lead the world:,"how can Indians say that india don not have the potential to lead the world???????????????
+India is the heaven in the Earth and only India have the potential to lead the world..........
+Believe yourself and hardwork.............
+surely INDIA WILL BECOME POTENTIAL TO LEAD THE WORLD other-than any country!!!!!!!!!!!!
+JAI HIND",1,1,1,1,1,0,1,1,1,0,1,0,0,0,TEST
+81,1,My brother is  @ a tx state prison he's broken his two front dentures and they do not want to fix them!?:,"No.  That is the beauty of the USA, you have no health care.  Why would it change if you had to go to jail while the rest of the public pays their hard earned money into taxes.  You brother is in a jail for a reason, maybe if he had contributed to society instead of commiting crimes he would not be in this situation.  Jail has no company benifits.",1,1,0,1,1,0,1,0,0,0,0,0,0,0,TEST
+90,1,How do you feel about the recent phone record ordeal?:,"I feel that its totally against everything that is American. How about everyone straps a GPS system to their legs so the government knows where everyone is, oops that's right cell phones i almost forgot. Besides this the government is saying its all in public safety, but i dont kno how safe i feel if i know someone is listening to my phone calls. Give me a break if i wanted to blow some shit up I wouldn't talk on the phone to make plans for it anyway.",1,1,1,0,0,0,0,1,0,1,0,0,0,0,TEST
+120,2,Cmv: i think the tsa is useful in the modern day.:,"First of all, very first of all, us people are very greedy. We like to scrimp if we can, so we can pocket the difference. $8B, according to Forbes is its budget. If it was so useless, or even if Congress felt they could get away without it, they would immediately remove it. $8B more! They'd raise their pay! But they don't. Why wouldn't they? Because they think it serves some sort of purpose, and I am assuming it is the one of protecting the USA. Secondly, it is evolving. You have seen new security measures every year and while yes, they are annoying, they may have potentially saved your life. How's that for throwing away 500ml of water and standing in queue for 30min?
+I can see that many people in reddit disagree with this, however, and I want to know why, so I can form a balanced opinion. So CMV!",1,1,1,0,0,0,0,0,0,0,0,0,0,0,TEST
+131,2,"Will the economy recover shortly?   stance: yes, it will recover quickly (months):","Yes, it WILL recover - PROVIDED the government stops its meddling and 'bailing out' measures. It's things exactly like this that turned the potentially temporary market drop into a huge and horrid 'Great Depression'......and as part of the 'measures' then instituted were some of the Union Laws which are STILL crippling our ability to be competitive....
+I wish lawmakers HAD TO take at least SOME relevant history while in high school...",1,1,1,1,0,0,0,1,0,1,0,0,0,0,TEST
+134,2,Which is a better pizza or taco bell   stance: pizza:,"I don't know where you live, but here in SoCal we have pizza delivery services availabe until 3am, plus i'd rather go to Del Taco anytime over Taco Smell or Taco Hell aka Taco Bell.
+Back in the 60s before Taco Fell became part of another multi-national corporation they were good, in our high school days we go there to cure the munchies, tacos were 5 for a buck back then.
+JJ",1,1,1,0,1,1,0,0,0,0,0,0,0,0,TEST
+174,0,Is porn wrong:,"Are you a Christian...or anything? If not, than hey who's to stop you! For the record, yeah it's wrong. Unfortunately, it's impossible to argue that, if you and the opposing individual refuse to share the same beliefs. Hence, my first point.",1,1,0,1,1,0,1,1,1,0,1,0,0,0,TEST
+192,0,Is porn wrong:,"Whoever said porn degrades women is idiotic. #1 They get compensated well, #2 they CHOSE to do it, #3 some girls actually like what they do, #4 without sex and porn, you may not have been born. Sex = life. =)",1,1,0,1,1,0,1,0,0,0,0,0,0,0,TEST
+256,1,Why do people still stand behind gw?:,"I often ask myself the same question. 
+
+The sheep stand behind him because this administration has done a successful job in terrorizing his (Bush's) supporters with fear. They use the crayola chart to let people know the 'terror threat' yet they want people to live their lives and not let what happened on 9/11 to affect how we live. The crayola chart really is only needed by state and local governments as it advises if they need more resources for that particular time frame. (public servants)
+
+In the name of ' I don't like that party ', people will side with him as well. So Bush could have told people that he is the spawn of Satan and people would have still voted for him becuase they so much dislike the opposing political party.",1,1,0,1,1,1,1,0,0,0,0,0,0,0,TEST
+12,0,India has the potential to lead the world:,india is is good adopter but a bad developer and leader should be a great developer,1,0,0,0,1,0,1,1,0,0,1,0,0,0,TEST
+34,0,Is porn wrong:,Porn isn't inherently wrong because It really can't substantially harm anyone who isn't involved in it by choice.It really is just as simple as that.,1,0,0,0,1,0,1,0,0,0,0,0,0,0,TEST
+54,0,Ban plastic water bottles:,there aint no sunshine without plastic water bottles. only darkness everyday.,1,0,0,0,1,1,0,1,1,0,0,0,0,0,TEST
+66,0,Pro choice vs pro life:,"I am Pro-Life,
+Here is a question for anyone who is Pro-Choice: Is the baby in the mother's stomach living and if not how do you know?",1,0,0,0,1,1,1,1,1,1,1,0,0,0,TEST
+153,3,"Business review: 2.0 stars
+business name: agincourt bakery. city: scarborough. categories: event planning & services, delis, caterers, italian, bakeries, food, restaurants:","Since this place is close to where i live and it showed good yelp ratings i figured i would give it a try.  Went to try the veal sandwich and check out their baked goods. 
+Veal sandwich - 2.5 stars. The veal wasn't tender enough which made it difficult to bite through. I added provolone and onions which was decent, but the onions were sliced pretty big. The tomato sauce was liquidy which makes me think there isn't enough tomato paste. This made the sandwich more soggy than tasty. 
+Baked goods - 2 stars. I can't comment on the taste since i just checked it out but a handful of the items looked familiar from other bakeries which makes me think that they don't bake onsite. Also there was a lot of condensation build up in one of the cake/cookie fridge which make the food look unappetizing. The only things that looked worth trying was the lemon meringue and the cannolis.
+Final thoughts - was hoping for way better but got less than mediocre. Won't be trying out again.",1,0,0,0,1,1,0,0,0,0,0,0,0,0,TEST
+163,0,Firefox vs internet explorer:,"i love firefox and defended it, but what is odd is that this site is breaking in it.",1,0,0,0,1,1,1,1,1,1,1,0,0,0,TEST
+184,0,Pro choice vs pro life:,I support pro choice if nothing else because it is one of the last bastions that free people hold out against the government for.,1,1,1,0,1,0,1,1,0,0,1,0,0,0,TEST
+289,2,Cmv: i think yuengling is the best beer to get if you are having a party and don't know what beers people like.:,"Coors light tastes like beer-flavored piss-water. Labatts tastes like a pond that 80-year-old canucks had sex in. Budweiser is for retards who don't know what beer is. 
+
+But Yuengling is mass produced and... actually pretty good. 
+
+It's not the *best* beer, mind you. It's *good*, but it's not like, king of beers or anything. 
+
+Craft brews are getting a lot of attention in recent years, especially in America, and a lot of beer snobs go to parties. 
+
+These guys are not easy to please, but they *will* settle for Yuengling. It's just good enough to not offend, and just shitty enough to please the unwashed plebs. 
+
+Change my view.",1,1,1,1,1,0,1,0,0,0,0,0,0,0,TEST
+321,0,India has the potential to lead the world:,"As we know that India is fully filled with corruption. Each and every person have no time to help others, his only aim is to earn money in any way.Our manners and civilization are reducing and reducing every day.",1,1,1,1,1,0,1,0,0,0,0,0,0,0,TEST
+18,0,William farquhar ought to be honoured as the rightful founder of singapore:,Raffles had written his discovery wrongly as 29 February 1819.It was later corrected. He thought he had discovered Singapore on his firs journey,1,0,0,0,0,0,0,1,1,1,1,0,0,0,TEST
+22,0,Evolution vs creation:,"I am a nurse and the more I studied biology, the more I was in awe of the miracle of our bodies. Every tiny cell has it's own design that is even more complex than a computer. When you look at a computer do you question that there had to be a creator? Or do you need proof that this highly organized machine came to be about by a mere accident or order of circumstances? Evolutionists need more faith than Creationists.",1,0,0,0,0,0,0,1,0,0,1,0,0,0,TEST
+65,0,Pro choice vs pro life:,"The government has no place to tell a woman what she can do with her own body, ever.
+The government DOES have that right.
+1) a woman cannot legally prostitute herself in many states
+2) a woman cannot take illicit drugs into her own body
+3) a woman cannot use her body to murder others
+4) a woman cannot use her body to steal
+5) a woman cannot display her naked body in public
+there are many others. Men can also not do these things.
+The government tells us what to do with our bodies ALL THE TIME. This is no different.",1,0,0,0,0,0,0,1,0,1,0,0,0,0,TEST
+188,0,Evolution vs creation:,"Just a note to the creationists. Please use the ""Convinced me"" link correctly.
+You're supposed to click this if the person's argument convinced you that Creationism is true. Some of you seem to be clicking anything and everything on the right hand side.
+This will not help you win the debate by the way.",1,0,0,0,0,0,0,1,1,1,0,0,0,0,TEST
+229,0,Gay marriage right or wrong:,one reason is just because so many more people agree with this side now,1,1,1,0,0,0,0,1,1,1,0,0,0,0,TEST
+244,1,Should same sex marriages be legal?:,"This debate has clarified for me that the government shouldn't really be in the marriage business.  Let the churches perform marriages for whomever they think fit, and let the government simply record the marraiges or civil unions and grant equal rights to them all.  As for plural ""marriages,""  they exist, but there is not a sizable part of the population which supports them.  That is a different debate for another day, and the issues are quite different.  In my mind, the purpose of marriage or civil union is to provide support to individuals, especially when they are raising children.  Some of the most monogamous couples I know are gay, and they are some of the best parents too.",1,0,0,0,0,0,0,1,1,0,0,0,0,0,TEST
+94,1,Should religion be involved in our human rights?:,"In one sense you bring up an interesting point.  Let me challenge you with a broader concept...
+
+...do our Laws reflect our Morality....or does Morality stem from the Laws we make each other abide by?
+
+In their written series of civilization, Will and Ariel Durant made the point in the first book, ""Our Oriental Heritage"", that man did not need or make laws until he thought his neighbor needed them.
+
+Think on that a bit as you ponder your own question.
+
+In my own personal opinion, I do believe that faith can and should inform public policy.  In a republic such as ours, we have agreed to abide by the majority, until a new majority comes into being.  And each new majority will bring its' own set of values.",1,0,0,0,0,0,0,1,0,1,0,0,0,0,TEST
+306,2,What killed nikola tesla   stance: natural causes:,"Uh, lemme see, at 82 years old, especially in the 40's, it may have been by natural causes. I think if the government wanted him dead, they would have offed him WAY before when he was actually inventing things which could possibly be related to weapons. Now Michael Jackson or Elvis Presley... Those would be much more conspiracy theory probabilities.. lol...",1,0,0,0,0,0,0,1,0,1,0,0,0,0,TEST
+333,0,Should physical education be mandatory in schools:,"Yes! and yes and yes and definately a god damn bloody yes.
+Lack of physical education is the reason why your aunt or uncle is in hospital.
+Lack of physical education is the reason why millions of people are fat.
+Lack of physical education is the reason why you cannot sleep properly at times.
+Lack of physical education is the reason why you are not having super great sex with your girlfriend(s)",1,1,1,1,1,1,1,1,0,1,1,0,0,0,TEST
+266,1,Is fair trade real or just a gimmick to further differentiate products in saturated markets?:,"Well I think ultimately its just going to be a gimmick, why would the large supermarkets want to pay more for coffee beans etc when they don't have the decency to pay farmers in this country a fair price for their goods, and when we are all brainwashed on the money making ""carbon footprint"" idea how do you justify flying food round the world just to help the poor.
+
+I don't think that the social elite will go without fair trade or organic even though its riddled with GM, due to snobbery.",1,1,0,1,0,0,0,1,0,0,1,0,0,0,TEST
+303,2,Nothing exists   stance: nothing exists:,"""Nothing exists."" To utter that sentence - or even contemplate it - applies existence to something that is ""nothing."" Yet to argue that nothing exists asserts - paradoxically - that in fact, no thing exists. It is a logical impossibility to argue that nothing does not exist. Therefore, we must apply existence to nothing - making nothing something indeed!",1,0,0,0,0,0,0,1,0,0,1,0,0,0,TEST
+330,0,Evolution vs creation:,"That's your best argument - ""Because they don't"" ?
+I thought there was a reason for everything...
+I don't see the squirrel outside my window evolving. In fact, I'm pretty sure squirrels have looked and acted the same for thousands of years.
+How does an animal aquire a trait that he wasn't born with? Does he just wish for it really hard and it magically grows?
+And you proved my point - ""species have certain characteristics and properties""
+I noticed you didn't mention that their characteristics randomly change
+And by the way, I'm just wondering because I'm a curious person...
+what insects are you talking about?",1,1,0,1,1,0,1,1,1,0,1,0,0,0,TEST
+696,0,Should physical education be mandatory in schools:,"It must not be mandatory, but at least a requirements but not more often. How would you consider PE if the child is not so well? And if possible separate boys from girls, for boys assign some good games of physical education activity to them, same thing with girls, give them games for girls ideas.",1,1,0,1,1,0,1,1,1,1,1,1,1,0,TEST
+785,0,Is the school uniform a good or bad idea:,"because your own clothes are coolio hoolio, and if you get to wear what you want its coolio hoolio",1,0,0,0,1,1,0,1,1,0,0,1,1,0,TEST
+830,0,Is it better to have a lousy father or to be fatherless:,I rather have a lousy father then not have a father at all. Having a lousy father you have a father that cares for you and loves you. You can fix if he's lousy you can talk to him and knock some sense into him. I think it would hurt me not knowing who my father is and would want to know who he is. As long as you have a second parent that you can talk to when you can't talk to your mom about. I don't know how it would be if it was only my mom raising me.,1,0,0,0,0,0,0,0,0,0,0,1,0,1,TEST
+916,2,"Who gives society a bad name,,,black people or white people?   stance: black:","i think black ppl give more of a bad name!...only bcuz more then half of all jails are black ppl and u barely c white people on tv when anything bad happins! u mostly see rappers who r black go to jail for some stupid stuff and u nevr c any country singers that r white go anywhere bad!..im not sayin white ppl arent bad to cuz there are things that go on with them to but its all mostly black ppl!!...i think all monkeys and krackers shouldcreated equaly....but seperatly!
+",1,1,1,1,1,0,1,0,0,0,0,1,1,0,TEST
+1125,0,Should physical education be mandatory in schools:,"if physical educations r not ter then u wud b a couch potato
+!!!!!!!!!!!!!!!!howzz tat???",1,1,0,1,1,1,0,0,0,0,0,1,1,0,TEST
+1146,0,Is the school uniform a good or bad idea:,Good idea for separate student from other people for at least increase garment job. Why we use soldier uniform? For separate from civil. Why terrorist not use soldier uniform? For harmonious with civil and easy to attack enemy.,1,0,0,0,0,0,0,1,1,0,1,1,1,0,TEST
+1150,0,Is it better to have a lousy father or to be fatherless:,It's better to have a lousy father for practical reasons. You can blame every mistake you've made on your father. He won't pry into your business and search your room and take your stuff because he doesnt think I need it. He wouldnt care so much that he would get pissed and throw my backpack with my computer in it at a wall putting a hole in it because I didn't clean the sink after breakfast or I forgot my keys. I think it's actually an opinion because that kind of father is still lousy because he'll tell you that he hates you and I ruined his life.,1,1,1,0,1,0,1,1,0,1,0,1,0,1,TEST
+1270,0,Evolution vs creation:,"Oops, I meant to say creationist version of evolution. My apologies.",1,0,0,0,0,0,0,1,1,1,0,1,0,1,TEST
+1271,0,Evolution vs creation:,I can prove to you that humans have not evolved since the beginning of recorded history,1,1,1,0,1,0,1,1,1,0,0,1,0,1,TEST
