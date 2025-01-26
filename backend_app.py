@@ -7,8 +7,8 @@ from transformers import DebertaV2Tokenizer
 app = Flask(__name__)
 
 # Load dataset once when the app starts
-DATA_FILE = "train.csv"
-ANNOTATED_FILE = "annotations.csv"
+DATA_FILE = "/Dataset/train.csv"
+ANNOTATED_FILE = "/Dataset/annotations.csv"
 
 # Read the dataset into a Pandas DataFrame
 if os.path.exists(DATA_FILE):
@@ -181,8 +181,7 @@ def save_annotation():
     
     return jsonify({"message": "Annotation saved successfully!"}), 200
 
-# implement distributed dataset - 30 
-# send from this datset to frond end and cross check with tracker
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
