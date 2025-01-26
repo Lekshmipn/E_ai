@@ -7,7 +7,7 @@ import torch
 from transformers import DebertaV2Tokenizer, DebertaV2ForSequenceClassification
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
 import pickle
-from IPython.display import FileLink
+
 
 # Define the inappropriateness dimensions and labels
 DIMS = [
@@ -18,8 +18,8 @@ DIMS = [
 ]
 
 
-# Adjust the model path to point to the Kaggle dataset
-model_path = '/kaggle/input/distilbert'  
+# Adjust the model path to point to the dataset - distilbert/deberta
+model_path = '/distilbert'  
 
 # Load the DistilBERT tokenizer and model
 tokenizer = DistilBertTokenizer.from_pretrained(model_path)
@@ -76,7 +76,7 @@ explainer = lime.lime_text.LimeTextExplainer(class_names=DIMS)
 
 
 # Read the CSV file 
-csv_file_path = '/kaggle/input/testdata/balanced_test_entries.csv' 
+csv_file_path = '/Dataset/balanced_test_entries_42.csv' 
 data = pd.read_csv(csv_file_path)
 
 # Prepare an empty list to store the results
@@ -129,24 +129,16 @@ for idx, row in data.iterrows():
     print("-" * 50)  # Separator for readability
 
 # Save results to a CSV file
-output_csv_file = 'lime_results_test.csv'
+output_csv_file = 'lime_results_test.csv' # Specify the csv file path
 with open(output_csv_file, mode='w', newline='', encoding='utf-8') as file:
     writer = csv.DictWriter(file, fieldnames=results[0].keys())
     writer.writeheader()
     writer.writerows(results)
     
 # Save results to a Pickle file
-output_pickle_file = '/kaggle/working/lime_results_test.pkl'  # Specify the Pickle file path
+output_pickle_file = 'lime_results_test.pkl'  # Specify the Pickle file path
 with open(output_pickle_file, 'wb') as file:
     pickle.dump(results, file)  # Serialize and save the results object
 
 # Save the explanation as HTML
 #exp.save_to_file('lime_explanation_test.html')
-
-# Save the file to the Kaggle working directory
-output_file_path = '/kaggle/working/lime_results_test.csv'
-# Create a direct link to the file
-FileLink(output_file_path)
-
-print("Download your results:")
-FileLink(output_pickle_file)
